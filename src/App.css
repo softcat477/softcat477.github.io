@@ -1,0 +1,265 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:#EEE8DD;
+  color: #352D39;
+}
+
+html,
+header,
+nav,
+ul,
+body,
+img,
+p,
+div,
+h1,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+h1 {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Bree Serif', serif;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+nav {
+  position: fixed;
+  overflow: hidden;
+  background: #C96864;
+  -webkit-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 9px 9px 35px -8px rgba(0, 0, 0, 0.69);
+  box-shadow: 2px 2px 5px 0px rgba(91,87,79,0.69);text-align: center;
+  width: 250px;
+  height: 100%;
+
+  margin-left: 2%;
+  border-radius: 10px;
+}
+
+a:any-link {
+  color: #352D39;
+}
+
+
+nav img {
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 170px;
+  height: 170px;
+}
+
+.headname {
+  font-size: 30px;
+  font-family: 'Bree Serif', serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  font-family: 'Bree Serif', serif;
+  line-height: 50px;
+  font-size: 20px;
+
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+nav a:after {
+  border-radius: 1em;
+  border-top: 0.1em solid #1799b6;
+  content: "";
+  position: absolute;
+  right: 100%;
+  bottom: 0.14em;
+  left: 0;
+}
+
+nav a:hover:after {
+  right: 0;
+}
+
+.main {
+  margin-left: 20%;
+}
+
+.home {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.home img {
+  margin-top: 100px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.namestart {
+  font-family: 'Bree Serif', serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nameabout {
+  font-family: 'Bree Serif', serif;
+
+  line-height: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.socialicon img {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+.about {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact {
+  margin-left: 50px;
+}
+
+.contact-socialicon {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* /////////////////////footer///////////////////////////////// */
+
+footer p {
+  font-family: 'Bree Serif', serif;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-top: 200px;
+  text-align: right;
+}
+
+/* //////////////////////////////////////////////////////////////////////// */
+
+@media screen and (max-width: 1440px) {
+
+  .skills {
+    width: 100%;
+  }
+  .service-details div {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  .main {
+    margin: 0;
+  }
+
+  .skills {
+    width: 100%;
+  }
+
+  .service-details div {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto ;
+  gap: 15px;
+}
+
+.grid > div {
+  background-color: #E7BBCD;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 0px rgba(91,87,79,0.69);text-align: center;
+}
+
+.projects {
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.project > ul {
+  list-style-position: inside;
+  text-align: left;
+
+  font-family: 'Zilla Slab', serif;
+  line-height: 30px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.project > h4 {
+  font-family: 'Bree Serif', serif;
+  text-align: left;
+  padding: 10px 10px;
+  margin: 0px;
+}
+.project-link {
+  width: 32px;
+  position: relative;
+  bottom: -5px;
+}
+
+.program{
+  float: right;
+}
+
+.program > img{
+  height: 40px;
+  position: relative;
+  bottom: 0px;
+  float: right;
+  margin: 0 5px 0 5px;
+}
+
+
+.project > a > img {
+  height: 48px;
+}
+
+.project > p {
+  font-family: 'Zilla Slab', serif;
+
+  line-height: 30px;
+  margin: 10px 10px 10px 10px;
+  padding: 0px 0px 0px 10px;
+  border-left: 5px solid #dea1ba;
+  text-align: left;
+  font-size: 20px;
+  color: #5d4f64;
+}

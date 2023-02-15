@@ -1,0 +1,201 @@
+[
+  {
+    "title":"MuseScore Contributor",
+    "description": "An open-source, free music notation software to create, edit, and print music sheets.",
+    "link":"https://musescore.org/en",
+    "bullets":[
+      "Implemented UI feedback showing the result not found message.",
+      "Fixed staff issue on treble clef instruments to add treble clef staff instead of bass clef staff",
+      "Fixed UI action to allow the user to drag an image inside a text frame",
+      "Implemented copy-paste functionality to let users paste rich text in Musescore and plain text outside."
+    ],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/fluency/48/null/c-plus-plus-logo.png",
+        "link":"https://isocpp.org/",
+        "text":"C++"
+      },
+      {
+        "icon":"https://cdn.icon-icons.com/icons2/1381/PNG/512/qt_94938.png",
+        "link":"https://www.qt.io/download-open-source",
+        "text":"QT, QML"
+      }
+    ],
+    "order":-10
+  },
+  {
+    "title":"Rodan",
+    "description": "A web-based workflow engine to serve as a tool catering to the needs of musicologists to digitize and analyze medieval manuscripts. The platform provides a variety of jobs that can be combined into workflows to facilitate the digitization and analysis of manuscripts.",
+    "bullets":[
+      "Optimized Machine Learning models for digitizing medieval music manuscripts. Reduced the training and processing time by 50%.",
+      "Designed and implemented strategies to fit multiple high-resolution manuscripts into memory for training machine learning models.",
+      "Upgraded CI/CD pipelines to reduce the development/deployment complexity. Implemented unit tests, end-to-end tests, and health checks. Automated tests and health checks with GitHub action and cron jobs.",
+      "Tracked down and resolved memory issues in Docker containers and celery workers."
+    ],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/dusk/64/null/python.png",
+        "link":"https://www.python.org/",
+        "text":"Python"
+      },
+      {
+        "icon":"https://img.icons8.com/color/48/null/django.png",
+        "link":"https://www.djangoproject.com/",
+        "text":"Django"
+      },
+      {
+        "icon":"https://raw.githubusercontent.com/celery/celery/main/docs/images/celery_128.png",
+        "link":"https://docs.celeryq.dev/en/stable/index.html",
+        "text":"Celery"
+      },
+      {
+        "icon":"https://img.icons8.com/dusk/64/null/docker.png",
+        "link":"https://www.docker.com/",
+        "text":"Docker"
+      },
+      {
+        "icon":"https://img.icons8.com/color/48/null/tensorflow.png",
+        "link":"https://www.tensorflow.org/",
+        "text":"Tensorflow"
+      }
+    ],
+    "link":"https://ddmal.music.mcgill.ca/Rodan/",
+    "order":-9
+  },
+  {
+    "title":"Full-Stack Web Development MOOC",
+    "description": "Undertake online courses on full-stack web development offered by the University of Helsinki, emphasizing building a single-page application (SPA) withs React, Redux, Node.js, and MongoDB.",
+    "bullets": [],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/bubbles/50/null/react.png",
+        "link":"https://reactjs.org/",
+        "text":"React"
+      },
+      {
+        "icon":"https://img.icons8.com/material-outlined/24/null/redux.png",
+        "link":"https://redux.js.org/",
+        "text":"Redux"
+      },
+      {
+        "icon":"https://img.icons8.com/fluency/48/null/node-js.png",
+        "link":"https://nodejs.org/en/",
+        "text":"Node.js"
+      },
+      {
+        "icon":"https://img.icons8.com/color/48/null/mongodb.png",
+        "link":"https://www.mongodb.com/",
+        "text":"MongoDb"
+      }
+    ],
+    "link":"https://github.com/softcat477/Exercises",
+    "order":-5
+  },
+  {
+    "title":"SMPL-FBX Converter",
+    "description": "Converted dance motions from SMPL format to FBX to visualize and edit dance movements in Unity, Blender, and Maya.",
+    "bullets": [],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/dusk/64/null/python.png",
+        "link":"https://www.python.org/",
+        "text":"Python"
+      },
+      {
+        "icon":"https://img.icons8.com/material-outlined/24/null/fbx.png",
+        "link":"https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-0",
+        "text":"Fbx SDK"
+      }
+    ],
+    "link":"https://github.com/softcat477/SMPL-to-FBX",
+    "order":0
+  },
+  {
+    "title":"Intellectual Rehabilitation System",
+    "description": "A markerless rehabilitation system developed with OpenPose to give real-time feedback on the correctness of rehab exercises. Coded to calibrate a multi-camera system, predict 2D joint positions, reconstruct 3D joint positions, and estimate joint angles.",
+    "bullets": [],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/fluency/48/null/c-plus-plus-logo.png",
+        "link":"https://isocpp.org/",
+        "text":"C++"
+      },
+      {
+        "icon":"https://img.icons8.com/dusk/64/null/python.png",
+        "link":"https://www.python.org/",
+        "text":"Python"
+      },
+      {
+        "text":"OpenCV",
+        "icon":"https://img.icons8.com/color/48/null/opencv.png",
+        "link":"https://opencv.org/"
+      },
+      {
+        "text":"OpenPose",
+        "icon":"https://raw.githubusercontent.com/CMU-Perceptual-Computing-Lab/openpose/master/.github/Logo_main_black.png",
+        "link":"https://github.com/CMU-Perceptual-Computing-Lab/openpose"
+      }
+    ],
+    "order":1
+  },
+  {
+    "title": "Multi-channel radio",
+    "description": "An application to decode online radio streams and support multi-channel audio mixing. Each channel contains a pan knob, a volume fader, and a level meter that enable users to do basic audio mixing.",
+    "bullets": [],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/fluency/48/null/c-plus-plus-logo.png",
+        "link":"https://isocpp.org/",
+        "text":"C++"
+      },
+      {
+        "icon":"https://assets.juce.com/juce/JUCE_banner_github.png",
+        "link":"https://juce.com/",
+        "text":"JUCE"
+      }
+    ],
+    "link":"https://github.com/softcat477/Juicy-Radio",
+    "order":2
+  },
+  {
+    "title": "Slapbass Synthesis",
+    "description": "Parse slap basslines in MusicXML files and synthesize basslines with waveguide models to simulate the motion of a string colliding with the fretboard.",
+    "bullets": [],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/fluency/48/null/c-plus-plus-logo.png",
+        "link":"https://isocpp.org/",
+        "text":"C++"
+      }
+    ],
+    "order":3
+  },
+  {
+    "title": "Flanger",
+    "description": "Add flanging effects to a input audio file!",
+    "bullets": [],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/fluency/48/null/c-plus-plus-logo.png",
+        "link":"https://isocpp.org/",
+        "text":"C++"
+      }
+    ],
+    "link":"https://github.com/softcat477/flanger",
+    "order":4
+  },
+  {
+    "title": "Creating Endless Sounds",
+    "description": "Create endless sounds with higher-order linear prediction method and the fast Fourier transform to extend the stationary part of a short audio segment and synthesize longer audio. The synthesized audio samples can be used as ambience in games.",
+    "bullets": [],
+    "skills": [
+      {
+        "icon":"https://img.icons8.com/dusk/64/null/python.png",
+        "link":"https://www.python.org/",
+        "text":"Python"
+      }
+    ],
+    "link":"https://github.com/softcat477/Creating-Endless-Sound",
+    "order":5
+  }
+]
