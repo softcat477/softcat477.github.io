@@ -64,8 +64,11 @@
   },
   {
     "title":"Full-Stack Web Development MOOC",
-    "description": "Undertake online courses on full-stack web development offered by the University of Helsinki, emphasizing building a single-page application (SPA) withs React, Redux, Node.js, and MongoDB.",
-    "bullets": [],
+    "description": "Undertook online courses on full-stack web development offered by the University of Helsinki, emphasizing building a single-page application (SPA) withs React, Redux, Node.js, and MongoDB.",
+    "bullets": [
+      "Developed a blog backend using Express.js, with features such as user login, blog posting, and likes. Utilized MongoDB to store blogs and incorporated Jest for unit testing.",
+      "Designed and developed a front-end web application for keeping blogs using React and Redux. Conducted unit testing with Jest and end-to-end testing with Cypress."
+    ],
     "skills": [
       {
         "icon":"https://img.icons8.com/bubbles/50/null/react.png",
@@ -139,8 +142,8 @@
     "order":1
   },
   {
-    "title": "Multi-channel radio",
-    "description": "An application to decode online radio streams and support multi-channel audio mixing. Each channel contains a pan knob, a volume fader, and a level meter that enable users to do basic audio mixing.",
+    "title": "Live Stream Radio",
+    "description": "An application to decode and play online radio streams. The master channel contains a pan knob, a volume fader, and a level meter that enable users to do basic audio mixing.",
     "bullets": [],
     "skills": [
       {
