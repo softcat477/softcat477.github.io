@@ -29,10 +29,10 @@ const Home = () => {
         Software Engineer
       </p>
       <p className="nameabout">
-        I code for music, transcribe music, and make music.
+        I code for anything.
       </p>
       <p className="nameabout">
-        Programming, music, and programming for music are three of my greatest passion. I work as a software developer focused on preserving and digitizing medieval music manuscripts. I also contribute to MuseScore (an open-source music notation software) in my free time.
+        I am a software developer and mostly contribute to C++ projects. My work focuses on preserving and digitizing medieval music manuscripts, and I spend time contributing to music notation software.
       </p>
       <div className="socialicon">
         <a href="https://github.com/softcat477" target="_blank" rel="noreferrer noopener">
