@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'https://personal-web-backend.fly.dev/api/projects'
+const baseUrl = 'http://pweb-2085132486.ca-central-1.elb.amazonaws.com/api/projects'
 
 const getAll = async () => {
   const response = await axios.get(baseUrl)
