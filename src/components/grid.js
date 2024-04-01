@@ -36,7 +36,8 @@ const Project = ({project}) => {
   
     useEffect(() => {
       const fetchProjects = async () => {
-        const _projects = await projectService.getAll()
+        let _projects = await projectService.getAll()
+        _projects = _projects.filter(p => p.hasOwnProperty("hide") === false)
         setProjects(_projects)
       }
   
